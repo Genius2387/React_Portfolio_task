@@ -15,7 +15,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container">
         <NavLink className="navbar-brand fw-bold" to="/">
-          MyPortfolio
+          Genius
         </NavLink>
 
         <button
