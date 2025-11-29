@@ -6,7 +6,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-6 mb-3">
-            <h5>MyPortfolio</h5>
+            <h5>Genius</h5>
             <p>Creating digital experiences that matter.</p>
           </div>
           <div className="col-md-6 text-md-end">
@@ -20,7 +20,7 @@ function Footer() {
         </div>
         <hr className="bg-white" />
         <div className="text-center">
-          <p className="mb-0">©2025 MyPortfolio. All rights reserved.</p>
+          <p className="mb-0">©2025 Genius. All rights reserved.</p>
         </div>
       </div>
     </footer>
