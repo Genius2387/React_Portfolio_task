@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import React from "react";
 
 function Header({ title, subtitle, showButton }) {
@@ -7,7 +7,9 @@ function Header({ title, subtitle, showButton }) {
       <div className="container">
         <h1>{title}</h1>
         <p className="lead">{subtitle}</p>
-        {showButton && <a href="#contact" className="btn btn-primary">Contact Me</a>}
+        {showButton &&  <Link to="/contact" className="btn btn-primary">
+            Contact Me
+          </Link>}
       </div>
     </header>
   );
